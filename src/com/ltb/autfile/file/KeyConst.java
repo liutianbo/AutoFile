@@ -7,4 +7,6 @@ package com.ltb.autfile.file;
  */
 public class KeyConst {
 	public static final String PACKAGE ="package";
+	public static final String LINEEND = "\r\n";
+	public static final String SPACE = " ";
 }

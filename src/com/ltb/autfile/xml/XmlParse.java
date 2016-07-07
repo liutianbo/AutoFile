@@ -50,7 +50,7 @@ public class XmlParse {
 			// 遍历根节点下所有子节点 填充 result
 			FileInfo info = null;
 			boolean pflag = false;// 主键标识
-			for(Iterator it=rootElm.elementIterator();it.hasNext();){
+			for(Iterator it=rootElm.elementIterator("param");it.hasNext();){
 				Element elm = (Element)it.next();
 				info = new FileInfo();
 				// 获取名字属性
