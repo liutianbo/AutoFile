@@ -1,0 +1,2 @@
+目标
+根据实体类xml生成 entity  controller  service  dao

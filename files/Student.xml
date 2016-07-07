@@ -1,0 +1,16 @@
+<Entity>
+<className>student</className>
+<param>
+	<name>id</name>
+	<type>Integer</type>
+	<isPrimay>true</isPrimay>
+</param>
+<param>
+	<name>name</name>
+	<type>String</type>
+</param>
+<param>
+	<name>age</name>
+	<type>Integer</type>
+</param>
+</Entity>
